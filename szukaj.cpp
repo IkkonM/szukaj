@@ -45,7 +45,7 @@ int main(){
 	cin>> wyraz2;	
 	
 	
-	string tekst = "Blorem bipsum ddd Lorem asdf Ipsum";
+	string tekst = "Blorem bipsum ddd lorem Lorem ipsum asdf Ipsum";
 
 	bool wynik;
 	wynik = szukaj(tekst, wyraz1, wyraz2);
