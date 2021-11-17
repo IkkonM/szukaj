@@ -20,9 +20,15 @@ bool szukaj(string tekst, string wyraz1, string wyraz2){
 		return true;
 	} else if(posA>-1 || posB>-1){
 		cout<<"Znaleziono tylko jeden wyraz";
+		return 0;
 	} else if(posA==-1 && posB==-1){
 		cout<<"Nie znaleziono zadnego wyrazu";
-	} 
+		return 0;
+	} else{
+		return 0;
+	}
+	
+	
 	
 }
 
